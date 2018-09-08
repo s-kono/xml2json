@@ -7,10 +7,10 @@
    * 依存で入る concurrent-ruby (requires Ruby version >= 1.9.2) の要求により、1.8.7 (CentOS 6) では無理そう
 
 ```sh
-for Ruby v2.2.2 (or Upper)
+for Ruby v2.2.2 (or upper)
 % sudo gem install activesupport -p http://proxy.example.jp:8080/
 
-for Old Rubu (>= v1.9.2)
+for Old Ruby (>= v1.9.2)
 % sudo gem install activesupport -v 4.2.10 -p http://proxy.example.jp:8080/
 ```
 
