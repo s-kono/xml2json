@@ -19,3 +19,15 @@ for Old Ruby (>= v1.9.2)
 ```sh
 % cat sample.xml | ./xml2json.rb
 ```
+
+## for python
+
+xmljson を使っても良いかもしれない
+
+ * https://pypi.org/project/xmljson/
+
+```sh
+% sudo pip install xmljson
+% cat sample.xml | python -m xmljson -d yahoo
+```
+
